@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstraction.AbstractClass
+namespace Abstraction.Interface
 {
-    public class Herbivora : Hewan
+    public class Herbivora : IHewan
     {
-        public override void Jenis()
+        public void Jenis()
         {
             Console.WriteLine("Hewan pemakan tumbuh tumbuhan.");
             Console.WriteLine("Hewan yang jinak ataupun juga ada yg ganas.");
